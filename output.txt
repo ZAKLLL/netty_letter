@@ -1,0 +1,2 @@
+
+hello ,这是写入output的中文内容

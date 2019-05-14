@@ -1,0 +1,9 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="netty_lecture:jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/netty_lecture_jar</output-path>
+    <root id="archive" name="netty_lecture.jar">
+      <element id="module-output" name="com.zakl.netty.netty_lecture.main" />
+      <element id="extracted-dir" path="$USER_HOME$/.gradle/caches/modules-2/files-2.1/io.netty/netty-all/4.1.10.Final/e333a6a1f91bf99bc96e48f807335e735e53031c/netty-all-4.1.10.Final.jar" path-in-jar="/" />
+    </root>
+  </artifact>
+</component>
