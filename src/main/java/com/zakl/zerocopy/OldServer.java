@@ -1,7 +1,5 @@
 package com.zakl.zerocopy;
 
-import com.sun.deploy.security.ruleset.ExceptionRule;
-
 import java.io.DataInputStream;
 import java.io.IOException;
 import java.net.ServerSocket;

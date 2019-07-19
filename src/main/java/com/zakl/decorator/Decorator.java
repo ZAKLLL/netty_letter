@@ -17,6 +17,5 @@ public class Decorator implements Component {
     @Override
     public void doSomeThing() {
         component.doSomeThing();
-
     }
 }

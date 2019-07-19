@@ -18,7 +18,7 @@ public class NioTest4 {
         FileInputStream fileInputStream = new FileInputStream("input.txt");
         FileOutputStream fileOutputStream = new FileOutputStream("output.txt");
         FileChannel inputChannel = fileInputStream.getChannel();
-        FileChannel outputChanner = fileOutputStream.getChannel();
+        FileChannel outputChannel = fileOutputStream.getChannel();
 
         ByteBuffer byteBuffers = ByteBuffer.allocate(10);
 
@@ -36,10 +36,10 @@ public class NioTest4 {
             byteBuffers.flip();
 
             //像Channel中写入数据
-            outputChanner.write(byteBuffers);
+            outputChannel.write(byteBuffers);
         }
         inputChannel.close();
-        outputChanner.close();
+        outputChannel.close();
         fileInputStream.close();
         fileOutputStream.close();
     }

@@ -21,8 +21,8 @@ public class NioTest3 {
         byte[] messages = "message text".getBytes();
         byte[] messages2 = "new message text".getBytes();
 
-        for (int i = 0; i < messages.length; i++) {
-            byteBuffer.put(messages[i]);
+        for (byte message : messages) {
+            byteBuffer.put(message);
         }
         //将buffer设为可读状态
         byteBuffer.flip();
